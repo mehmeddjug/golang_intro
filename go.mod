@@ -1,3 +1,3 @@
-module github.com/mehmeddjug/golang_intro
+module github.com/mehmeddjug/golangintro
 
 go 1.21.2

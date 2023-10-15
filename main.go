@@ -3,7 +3,7 @@ package main
 import (
     "fmt"
 
-    _ "github.com/mehmeddjug/golang_intro/dummy"
+    _ "github.com/mehmeddjug/golangintro/dummy"
 )
 
 
