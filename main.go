@@ -1,13 +1,14 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 
-    _ "github.com/mehmeddjug/golangintro/dummy"
+	"github.com/mehmeddjug/golangintro/datastructs"
+	_ "github.com/mehmeddjug/golangintro/dummy"
 )
 
-
 func main() {
-    fmt.Println("This is a main func!")
-    fmt.Println("Hello World!")
+	fmt.Println("This is a main func!")
+	datastructs.Decleration()
+	fmt.Println("Hello World!")
 }

@@ -2,7 +2,7 @@ package datastructs
 
 import "fmt"
 
-func decleration() {
+func Decleration() {
 	// Declare an array of ten integers.
 	var arrayOne [10]int
 	fmt.Println(arrayOne)
