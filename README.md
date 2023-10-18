@@ -1,7 +1,13 @@
 # golangintro
 Introduction to Go lang - syntax, data structures, dummy functions, package management
 
-- package management: 
-        - call Dummy init function from dummy package to main.go :tada:
-        - call Decleration function from datastructs package to main.go :tada:
-- array: :stop_sign::safety_vest::construction:
+<ul>--> package management:
+        <ul> - call Dummy init function from dummy package to main.go :tada: </ul>
+        <ul> - call functions from datastructs package                :tada: </ul>
+</ul>
+<ul>--> array:
+        <ul> - Decleration of arrays and data manipulation            :tada: </ul>
+        <ul> - Function calls with array/pointer to array arguments   :tada: </ul>
+</ul>
+<ul>--> slice: :stop_sign::safety_vest::construction:
+</ul>
