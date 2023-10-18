@@ -9,13 +9,11 @@ import (
 
 func main() {
 	fmt.Println("--------------------------------------------------")
-	datastructs.Decleration()
+	datastructs.ArrayDecleration()
 	fmt.Println("--------------------------------------------------")
-	arr := [3]string{"Gold", "Silver", "Bronze"}
-	datastructs.Array(arr)
+	datastructs.ArrayAssign()
 	fmt.Println("--------------------------------------------------")
-	ptrArr := [3]*string{new(string), new(string), new(string)}
-	datastructs.PtrArray(ptrArr)
+	datastructs.ArrayAssignPtr()
 	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
 }
