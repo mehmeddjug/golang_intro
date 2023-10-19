@@ -1,15 +1,34 @@
 package datastructs
 
+import (
+	"github.com/mehmeddjug/golangintro/datastructs/arrayds"
+	"github.com/mehmeddjug/golangintro/datastructs/sliceds"
+)
+
 func ArrayDecleration() {
-	Decleration()
+	arrayds.Decleration()
 }
 
 func ArrayAssignPtr() {
 	ptrArr := [3]*string{new(string), new(string), new(string)}
-	PtrArray(ptrArr)
+	arrayds.PtrArray(ptrArr)
 }
 
 func ArrayAssign() {
 	arr := [3]string{"Gold", "Silver", "Bronze"}
-	Array(arr)
+	arrayds.Array(arr)
+}
+
+func SliceDecleration() {
+	sliceds.Decleration()
+}
+
+func SliceAssignPtr() {
+	ptrArr := [3]*string{new(string), new(string), new(string)}
+	sliceds.PtrSlice(ptrArr)
+}
+
+func SliceAssign() {
+	arr := [3]string{"Gold", "Silver", "Bronze"}
+	sliceds.Slice(arr)
 }

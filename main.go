@@ -8,12 +8,21 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello Arrays!")
 	fmt.Println("--------------------------------------------------")
 	datastructs.ArrayDecleration()
 	fmt.Println("--------------------------------------------------")
 	datastructs.ArrayAssign()
 	fmt.Println("--------------------------------------------------")
 	datastructs.ArrayAssignPtr()
+	fmt.Println("--------------------------------------------------")
+	fmt.Println("Hello Slices!")
+	fmt.Println("--------------------------------------------------")
+	datastructs.SliceDecleration()
+	fmt.Println("--------------------------------------------------")
+	datastructs.SliceAssign()
+	fmt.Println("--------------------------------------------------")
+	datastructs.SliceAssignPtr()
 	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
 }
