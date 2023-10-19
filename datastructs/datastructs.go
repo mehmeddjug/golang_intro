@@ -23,12 +23,7 @@ func SliceDecleration() {
 	sliceds.Decleration()
 }
 
-func SliceAssignPtr() {
-	ptrArr := [3]*string{new(string), new(string), new(string)}
-	sliceds.PtrSlice(ptrArr)
-}
-
 func SliceAssign() {
-	arr := [3]string{"Gold", "Silver", "Bronze"}
+	arr := []string{"Gold", "Silver", "Bronze"}
 	sliceds.Slice(arr)
 }

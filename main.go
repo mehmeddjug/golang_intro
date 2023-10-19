@@ -22,7 +22,5 @@ func main() {
 	fmt.Println("--------------------------------------------------")
 	datastructs.SliceAssign()
 	fmt.Println("--------------------------------------------------")
-	datastructs.SliceAssignPtr()
-	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
 }
