@@ -22,5 +22,7 @@ func main() {
 	fmt.Println("--------------------------------------------------")
 	datastructs.SliceAssign()
 	fmt.Println("--------------------------------------------------")
+	datastructs.MapDecleration()
+	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
 }

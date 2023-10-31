@@ -2,6 +2,7 @@ package datastructs
 
 import (
 	"github.com/mehmeddjug/golangintro/datastructs/arrayds"
+	"github.com/mehmeddjug/golangintro/datastructs/mapds"
 	"github.com/mehmeddjug/golangintro/datastructs/sliceds"
 )
 
@@ -26,4 +27,8 @@ func SliceDecleration() {
 func SliceAssign() {
 	arr := []string{"Gold", "Silver", "Bronze"}
 	sliceds.Slice(arr)
+}
+
+func MapDecleration() {
+	mapds.Decleration()
 }
