@@ -9,5 +9,10 @@ Introduction to Go lang - syntax, data structures, dummy functions, package mana
         <ul> - Decleration of arrays and data manipulation            :tada: </ul>
         <ul> - Function calls with array/pointer to array arguments   :tada: </ul>
 </ul>
-<ul>--> slice: :stop_sign::safety_vest::construction:
+<ul>--> slice: 
+        <ul> - Decleration of slice and data manipulation            :tada: </ul>
+        <ul> - Function calls with slice arguments                   :tada: </ul>
 </ul>
+<ul>--> map: :stop_sign::safety_vest::construction:
+</ul>
+        
