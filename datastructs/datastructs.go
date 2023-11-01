@@ -32,3 +32,8 @@ func SliceAssign() {
 func MapDecleration() {
 	mapds.Decleration()
 }
+
+func MapAssign() {
+	mapDict := map[string]string{"One": "One-Two", "Three": "Three-Four"}
+	mapds.Map(mapDict, "Five", "Five-Six")
+}

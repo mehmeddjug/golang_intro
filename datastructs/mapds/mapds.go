@@ -47,3 +47,8 @@ func Decleration() {
 	delete(emptyMap, "Some")
 	fmt.Println(emptyMap)
 }
+
+func Map(mapDict map[string]string, key string, value string) {
+	mapDict[key] = value
+	fmt.Println(mapDict)
+}

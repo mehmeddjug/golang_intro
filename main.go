@@ -24,5 +24,7 @@ func main() {
 	fmt.Println("--------------------------------------------------")
 	datastructs.MapDecleration()
 	fmt.Println("--------------------------------------------------")
+	datastructs.MapAssign()
+	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
 }
