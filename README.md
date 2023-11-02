@@ -17,6 +17,6 @@ Introduction to Go lang - syntax, data structures, dummy functions, package mana
         <ul> - Decleration of slice and data manipulation            :tada: </ul>
         <ul> - Function calls with slice arguments                   :tada: </ul>
 </ul>
-<ul>--> Type system: :stop_sign::safety_vest::construction:
+<ul>--> type system: :stop_sign::safety_vest::construction:
 </ul>
 
