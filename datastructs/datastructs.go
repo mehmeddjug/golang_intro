@@ -4,6 +4,7 @@ import (
 	"github.com/mehmeddjug/golangintro/datastructs/arrayds"
 	"github.com/mehmeddjug/golangintro/datastructs/mapds"
 	"github.com/mehmeddjug/golangintro/datastructs/sliceds"
+	"github.com/mehmeddjug/golangintro/datastructs/userdefineds"
 )
 
 func ArrayDecleration() {
@@ -36,4 +37,8 @@ func MapDecleration() {
 func MapAssign() {
 	mapDict := map[string]string{"One": "One-Two", "Three": "Three-Four"}
 	mapds.Map(mapDict, "Five", "Five-Six")
+}
+
+func UserdefinedDecleration() {
+	userdefineds.Decleration()
 }
