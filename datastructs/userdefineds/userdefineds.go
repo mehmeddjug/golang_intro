@@ -10,5 +10,11 @@ type user struct {
 
 func Decleration() {
 	var someOne user
+	someTwo := user{
+		name: "Jon",
+		pass: true,
+		age:  25,
+	}
 	fmt.Println(someOne)
+	fmt.Println(sometwo)
 }
