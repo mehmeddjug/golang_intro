@@ -15,11 +15,8 @@ func Decleration() {
 		pass: true,
 		age:  25,
 	}
-	someThree := user{
-		name: "John",
-		pass: false,
-		age:  35,
-	}
+	someThree := user{"John", false, 35}
+
 	fmt.Println(someOne)
 	fmt.Println(someTwo)
 	fmt.Println(someThree)
