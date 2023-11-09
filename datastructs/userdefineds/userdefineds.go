@@ -11,6 +11,7 @@ type user struct {
 type timeout int32
 
 func Decleration() {
+	// user defined type user (struct)
 	var someOne user
 
 	someTwo := user{
@@ -24,12 +25,14 @@ func Decleration() {
 	fmt.Println(someTwo)
 	fmt.Println(someThree)
 
+	// user defined type timeout (int32)
 	delay := timeout(30)
 	fmt.Println("Delay:", delay)
 
 	someTwo.hello()
 }
 
-func (user user) hello() {
-	fmt.Printf("Hello %s, I'm %d\n", user.name, user.age)
+// Method decleration -> func (type) name
+func (v user) hello() {
+	fmt.Printf("Hello %s, I'm %d\n", v.name, v.age)
 }
