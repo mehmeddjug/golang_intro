@@ -30,6 +30,8 @@ func Decleration() {
 	fmt.Println("Delay:", delay)
 
 	someTwo.hello()
+	someThree.updateName("Michael")
+	someThree.hello()
 }
 
 // Method decleration -> func (type) name
