@@ -33,6 +33,13 @@ func Decleration() {
 }
 
 // Method decleration -> func (type) name
+// Call by value receiver
 func (v user) hello() {
 	fmt.Printf("Hello %s, I'm %d\n", v.name, v.age)
+}
+
+// Method decleration -> func (type) name
+// Call by pointer receiver
+func (v *user) updateName(name string) {
+	v.name = name
 }
