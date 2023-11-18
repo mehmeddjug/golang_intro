@@ -28,5 +28,8 @@ func main() {
 	fmt.Println("--------------------------------------------------")
 	datastructs.UserdefinedDecleration()
 	fmt.Println("--------------------------------------------------")
+	datastructs.InterfacedsDecleration()
+	fmt.Println("--------------------------------------------------")
 	fmt.Println("Hello World!")
+	fmt.Println("--------------------------------------------------")
 }
