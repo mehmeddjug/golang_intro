@@ -42,3 +42,7 @@ func MapAssign() {
 func UserdefinedDecleration() {
 	userdefineds.Decleration()
 }
+
+func InterfacedsDecleration() {
+	userdefineds.DeclerationWithInterface()
+}
